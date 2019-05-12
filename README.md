@@ -23,10 +23,9 @@ source activate deep-learning
 ```
 jupyter notebook
 ```
-The server is located in: [localhost port 8888](localhost:8888/tree)
-
+* The server is located in: [localhost:8888](localhost:8888/tree)
 4. Open the Jupyter notebook called: [Your_first_neural_network.ipynb](/Your_first_neural_network.ipynb)
-The data comes from: [UCI Machine Learning Database](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
+* The data comes from: [UCI Machine Learning Database](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
 ## Results to expect:
 ### Training and validation loss:
 ![GitHub Logo](/assets/loss.png)
