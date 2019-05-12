@@ -3,17 +3,20 @@ The first Udacity Project from the Deep Learning Nanodegree. Using only Numpy to
 ![GitHub Logo](/assets/neural_network.png)
 ## Setup:
 1. Create a conda environment:
-.. Make sure you have installed: numpy matplotlib pandas jupyter notebook
+
+⋅⋅⋅Make sure you have installed: numpy matplotlib pandas jupyter notebook⋅⋅
 ```
 conda create --name deep-learning python=3
 conda install numpy matplotlib pandas jupyter notebook
 ```
-2. Activare your environment:
-.. Windows:
+2. Activate your environment:
+
+⋅⋅⋅Windows:
 ```
 activate deep-learning
 ```
-.. Mac/Linux
+
+⋅⋅⋅Mac/Linux
 ```
 source activate deep-learning
 ```
@@ -21,13 +24,14 @@ source activate deep-learning
 ```
 jupyter notebook
 ```
-.. The server is in: localhost:8888
+⋅⋅⋅The server is located in: localhost:8888⋅⋅
 4. Open the notebook called Your_first_neural_network.ipynb
-The data comes from [UCI Machine Learning Database] (https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
+The data comes from:
+[UCI Machine Learning Database](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
 ## Results to expect:
-Training and validation loss:
+###Training and validation loss:
 ![GitHub Logo](/assets/loss.png)
-Predictions after training:
+###Predictions after training:
 ![GitHub Logo](/assets/predictions.png)
 ## Conclusions
 The predictions are acceptable but in the December the model overestimes bike ridership because it hasn't had sufficient holiday season training examples.
